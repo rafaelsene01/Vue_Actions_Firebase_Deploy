@@ -3485,6 +3485,11 @@ dotenv-expand@^5.1.0:
   resolved "https://registry.yarnpkg.com/dotenv-expand/-/dotenv-expand-5.1.0.tgz#3fbaf020bfd794884072ea26b1e9791d45a629f0"
   integrity sha512-YXQl1DSa4/PQyRfgrv6aoNjhasp/p4qs9FjJ4q4cQk+8m4r6k4ZSiEyytKG8f8W9gi8WsQtIObNmKd+tMzNTmA==
 
+dotenv@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-4.0.0.tgz#864ef1379aced55ce6f95debecdce179f7a0cd1d"
+  integrity sha1-hk7xN5rO1Vzm+V3r7NzhefegzR0=
+
 dotenv@^8.2.0:
   version "8.2.0"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
@@ -3611,6 +3616,20 @@ entities@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/entities/-/entities-2.0.2.tgz#ac74db0bba8d33808bbf36809c3a5c3683531436"
   integrity sha512-dmD3AvJQBUjKpcNkoqr+x+IF0SdRtPz9Vk0uTy4yWqga9ibB6s4v++QFWNohjiUGoMlF552ZvNyXDxz5iW0qmw==
+
+envkey-webpack-plugin@^1.1.1:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/envkey-webpack-plugin/-/envkey-webpack-plugin-1.1.2.tgz#e4b87116c5f413e4d636d4a5776ce64635e2af17"
+  integrity sha512-ZJpxvQy2Woxw2Hz0cxkwgjT2kxMfui4IArRKiEPIY1v3A9kd41QskRQjeXqP4GJFVSvCaIWxV8+FPKehA9vHwQ==
+  dependencies:
+    envkey "^1.2.9"
+
+envkey@^1.2.9:
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/envkey/-/envkey-1.2.9.tgz#ff949e0bc64023b88ba0b045f8bfe327a3723378"
+  integrity sha512-pqHb0b+jzwnpvYJXO9mPm4K6FGL5wOZop+49ZyZApxJHNoklG75dV/NwYd/w9Ff0fPRz7jCvGqOuJvkf8niaBg==
+  dependencies:
+    dotenv "^4.0.0"
 
 errno@^0.1.3, errno@~0.1.7:
   version "0.1.7"
@@ -9992,9 +10011,9 @@ xtend@^4.0.0, xtend@~4.0.1:
   integrity sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
 
 y18n@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.0.tgz#95ef94f85ecc81d007c264e190a120f0a3c8566b"
-  integrity sha512-r9S/ZyXu/Xu9q1tYlpsLIsa3EeLXXk0VwlxqTcFRfg9EhMW+17kbt9G0NrgCmhGb5vT2hyhJZLfDGx+7+5Uj/w==
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.1.tgz#8db2b83c31c5d75099bb890b23f3094891e247d4"
+  integrity sha512-wNcy4NvjMYL8gogWWYAO7ZFWFfHcbdbE57tZO8e4cbpj8tfUcwrwqSl3ad8HxpYWCdXcJUCeKKZS62Av1affwQ==
 
 yallist@^2.1.2:
   version "2.1.2"
