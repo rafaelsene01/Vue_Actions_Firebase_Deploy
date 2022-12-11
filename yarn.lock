@@ -3485,6 +3485,11 @@ dotenv-expand@^5.1.0:
   resolved "https://registry.yarnpkg.com/dotenv-expand/-/dotenv-expand-5.1.0.tgz#3fbaf020bfd794884072ea26b1e9791d45a629f0"
   integrity sha512-YXQl1DSa4/PQyRfgrv6aoNjhasp/p4qs9FjJ4q4cQk+8m4r6k4ZSiEyytKG8f8W9gi8WsQtIObNmKd+tMzNTmA==
 
+dotenv@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-4.0.0.tgz#864ef1379aced55ce6f95debecdce179f7a0cd1d"
+  integrity sha512-XcaMACOr3JMVcEv0Y/iUM2XaOsATRZ3U1In41/1jjK6vJZ2PZbQ1bzCG8uvaByfaBpl9gqc9QWJovpUGBXLLYQ==
+
 dotenv@^8.2.0:
   version "8.2.0"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
@@ -3611,6 +3616,20 @@ entities@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/entities/-/entities-2.0.2.tgz#ac74db0bba8d33808bbf36809c3a5c3683531436"
   integrity sha512-dmD3AvJQBUjKpcNkoqr+x+IF0SdRtPz9Vk0uTy4yWqga9ibB6s4v++QFWNohjiUGoMlF552ZvNyXDxz5iW0qmw==
+
+envkey-webpack-plugin@^1.1.1:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/envkey-webpack-plugin/-/envkey-webpack-plugin-1.1.2.tgz#e4b87116c5f413e4d636d4a5776ce64635e2af17"
+  integrity sha512-ZJpxvQy2Woxw2Hz0cxkwgjT2kxMfui4IArRKiEPIY1v3A9kd41QskRQjeXqP4GJFVSvCaIWxV8+FPKehA9vHwQ==
+  dependencies:
+    envkey "^1.2.9"
+
+envkey@^1.2.9:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/envkey/-/envkey-1.3.2.tgz#4c047e5b5be1649a375c73f52c73c9299101e347"
+  integrity sha512-rxVrR4CPhuRNEIYIJU/s4q54x9JmI/MuKrL/iAG6n5kY+JsVhkuNcxQ2fZW6SHProZnZ23SBnNG+rLM1/exsfg==
+  dependencies:
+    dotenv "^4.0.0"
 
 errno@^0.1.3, errno@~0.1.7:
   version "0.1.7"
@@ -7625,9 +7644,9 @@ qs@6.7.0:
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 query-string@^4.1.0:
   version "4.3.4"
